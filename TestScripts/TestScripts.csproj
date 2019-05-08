@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{47B30839-81E3-4E51-9068-22984FADB296}</ProjectGuid>
+    <ProjectGuid>{9C66AE30-490A-463A-9C06-E9D1C23835F2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>EdnaReportsWizard</RootNamespace>
-    <AssemblyName>EdnaReportsWizard</AssemblyName>
+    <RootNamespace>TestScripts</RootNamespace>
+    <AssemblyName>TestScripts</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -38,10 +38,6 @@
     <Reference Include="EPPlus, Version=4.5.3.1, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <HintPath>..\packages\EPPlus.4.5.3.1\lib\net40\EPPlus.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -65,8 +61,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ReportTemplateGroup.cs" />
-    <Compile Include="StringUtils.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,9 +69,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="EpplusCsvConverter.cs" />
-    <Compile Include="ReportExtension.cs" />
-    <Compile Include="ReportTemplate.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -112,11 +103,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EdnaDataLayer\EdnaDataLayer.csproj">
-      <Project>{f6500639-9463-4021-8808-55ec3321906b}</Project>
+      <Project>{F6500639-9463-4021-8808-55EC3321906B}</Project>
       <Name>EdnaDataLayer</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EdnaReportsWizard\EdnaReportsWizard.csproj">
+      <Project>{47b30839-81e3-4e51-9068-22984fadb296}</Project>
+      <Name>EdnaReportsWizard</Name>
+    </ProjectReference>
     <ProjectReference Include="..\VariableTime\VariableTime.csproj">
-      <Project>{626a3f8d-b000-46ac-a548-d8042fe977b5}</Project>
+      <Project>{626A3F8D-B000-46AC-A548-D8042FE977B5}</Project>
       <Name>VariableTime</Name>
     </ProjectReference>
   </ItemGroup>

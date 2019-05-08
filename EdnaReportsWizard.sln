@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdnaReportsWizard", "EdnaReportsWizard\EdnaReportsWizard.csproj", "{47B30839-81E3-4E51-9068-22984FADB296}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EdnaDataLayer", "EdnaDataLayer\EdnaDataLayer.csproj", "{F6500639-9463-4021-8808-55EC3321906B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableTime", "VariableTime\VariableTime.csproj", "{626A3F8D-B000-46AC-A548-D8042FE977B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestScripts", "TestScripts\TestScripts.csproj", "{9C66AE30-490A-463A-9C06-E9D1C23835F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{47B30839-81E3-4E51-9068-22984FADB296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47B30839-81E3-4E51-9068-22984FADB296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47B30839-81E3-4E51-9068-22984FADB296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6500639-9463-4021-8808-55EC3321906B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6500639-9463-4021-8808-55EC3321906B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6500639-9463-4021-8808-55EC3321906B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6500639-9463-4021-8808-55EC3321906B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626A3F8D-B000-46AC-A548-D8042FE977B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626A3F8D-B000-46AC-A548-D8042FE977B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626A3F8D-B000-46AC-A548-D8042FE977B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626A3F8D-B000-46AC-A548-D8042FE977B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C66AE30-490A-463A-9C06-E9D1C23835F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C66AE30-490A-463A-9C06-E9D1C23835F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C66AE30-490A-463A-9C06-E9D1C23835F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C66AE30-490A-463A-9C06-E9D1C23835F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
